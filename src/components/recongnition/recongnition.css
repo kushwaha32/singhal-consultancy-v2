@@ -1,0 +1,23 @@
+.recongnition {
+  margin-bottom: 50px;
+}
+
+.otherStyle {
+  margin-bottom: 40px;
+}
+.recongnition_holder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.reco_con {
+  position: relative;
+}
+.reco_con > img {
+  width: 85%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

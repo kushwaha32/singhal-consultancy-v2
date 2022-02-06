@@ -1,0 +1,109 @@
+.recongnition input,
+.recongnition textarea {
+  font: 14px "Pigeon";
+  width: 100%;
+  float: left;
+  height: auto;
+  padding: 13px 0px;
+  border: none;
+  background: #f1f2f2;
+  text-indent: 10px;
+  text-transform: capitalize;
+  border-radius: 0px;
+  margin-bottom: 6px;
+  outline: none;
+}
+
+.recongnition input:focus,
+.recongnition textarea:focus,
+.recongnition textarea:focus-visible {
+  border-color: #fff;
+  box-shadow: none;
+  background-color: #f1f2f2;
+}
+
+.recongnition .form-group span {
+  font-size: 12px;
+  margin-bottom: 15px;
+  color: red;
+  display: block;
+}
+
+.social_media_link > li > a {
+  display: inline-block;
+  background: #0077b5;
+  border: 2px solid #0077b5;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+  padding: 8px 11px;
+  padding-left: 13px;
+  font-weight: 500;
+  margin-right: 6px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.social_media_link > li.twitter {
+  background: #1da1f2;
+  border: 2px solid #1da1f2;
+}
+.social_media_link > li:hover {
+  background-color: #fff;
+  color: #0077b5;
+}
+.social_media_link > li.twitter:hover {
+  color: #1da1f2;
+}
+
+.get_tuch {
+  font: 20px "Pigeon";
+  color: var(--background-color);
+}
+.recongnition > .heading_comman {
+  margin-bottom: 42px;
+}
+.submit_btn_recog {
+  text-align: center;
+  padding: 8px 20px;
+  margin-top: 5px;
+  border: none;
+  background: var(--hover-color);
+  color: #fff;
+  font: 20px "Pigeon";
+  border: 1px solid var(--hover-color);
+  transition: all 0.3s ease-in-out;
+}
+.submit_btn_recog .spinner-border {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.submit_btn_recog:hover {
+  background: #fff;
+  color: var(--hover-color);
+  border: 1px solid var(--hover-color);
+}
+
+@media only screen and (max-width: 768px) {
+  .submit_btn_recog {
+    display: block;
+    margin: 0 auto;
+  }
+  .get_tuch {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .slider_p {
+    text-align: center;
+  }
+  .social_media_link {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 500px) {
+}
+@media only screen and (max-width: 400px) {
+}

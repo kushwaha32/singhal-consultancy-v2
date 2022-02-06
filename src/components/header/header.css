@@ -1,0 +1,137 @@
+header {
+  background-color: var(--background-color);
+  box-shadow: 1px 1px 8px #ccc;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.container_width {
+  width: 90%;
+  margin: 0 auto;
+}
+.logo_brand > a {
+  color: var(--hover-color) !important;
+}
+.logo_brand > a > h2 {
+  text-align: center;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+.hamburger {
+  display: none;
+  font-size: 22px;
+  margin-top: 29px;
+  color: var(--font-color);
+}
+.header_parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.nav_link {
+  width: 68%;
+}
+
+.nav_link > li {
+  display: inline-block;
+  margin-right: 4%;
+  margin-top: 15px;
+}
+.nav_link > li:last-child {
+  margin-right: 0;
+}
+
+.nav_link > li > a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: 16px;
+  font-family: var(--fera-font);
+  transition: all 0.2s ease-in-out;
+}
+
+.nav_link > li:hover a {
+  color: var(--hover-color);
+}
+.nav_link > li > .logo_brand {
+  display: none;
+  padding-bottom: 26px;
+  padding-top: 33px;
+  margin: 0;
+  width: 69%;
+}
+.nav_link > .cross_icon {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav_link {
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    background: var(--background-color);
+    left: -100%;
+    bottom: 0;
+    top: 0;
+    box-shadow: 1px 1px 8px #ccc;
+    z-index: 99;
+    transition: all 0.3s ease-in;
+  }
+  .nav_link.show {
+    left: 0%;
+  }
+  .nav_link > li {
+    display: block;
+    border-bottom: 1px solid var(--border-color);
+    padding: 7px 0;
+    padding-left: 52px;
+    margin: 0;
+  }
+  .nav_link > li:last-child {
+    border-bottom: none;
+  }
+  .nav_link > li > .logo_brand {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+  .nav_link > .cross_icon {
+    display: block;
+    border-bottom: none;
+    position: absolute;
+    right: 22px;
+    top: 6px;
+    color: #e6e6ee;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav_link {
+    position: fixed;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .nav_link {
+    position: fixed;
+    width: 80%;
+  }
+  .logo_brand > a > img {
+    width: 171px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .nav_link {
+    position: fixed;
+    width: 100%;
+  }
+  .logo_brand > a > img {
+    width: 126px;
+  }
+}

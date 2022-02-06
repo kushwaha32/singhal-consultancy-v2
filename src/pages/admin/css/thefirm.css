@@ -1,0 +1,13 @@
+.plus_btn_admin {
+  background-color: seagreen;
+  color: #fff;
+  font-size: 17px;
+}
+
+.plus_btn_admin:hover {
+  color: #fff;
+}
+
+.btn_icon_ed {
+  font-size: 17px;
+}

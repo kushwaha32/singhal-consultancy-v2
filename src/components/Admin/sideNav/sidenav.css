@@ -1,0 +1,23 @@
+.sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active,
+.sidebar-light-primary .nav-sidebar > .nav-item > .nav-link {
+  background-color: transparent !important;
+  color: #fff;
+  box-shadow: none !important;
+  border-radius: 5px !important;
+}
+
+.nav-sidebar.cu_nav > .nav-item:hover .nav-link.active {
+  background: #454d55 !important;
+}
+.nav-sidebar.cu_nav > .nav-item > .nav-link.active {
+  background: #454d55 !important;
+  overflow: hidden;
+}
+
+.admin_brand_Link > span {
+  display: block !important;
+  text-align: center;
+  color: var(--hover-color);
+  font-weight: 700 !important;
+  font-family: Playfair Display, serif;
+}

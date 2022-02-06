@@ -1,0 +1,111 @@
+.people_nav_container .nav-item .nav-link .people_nav > a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  font: 14px "Pigeon";
+  margin-bottom: 7px;
+  border: 1px solid #f1f1f1;
+  color: #4f4f4fd1;
+  transition: all 0.3s ease-in-out;
+}
+
+.people_nav_container .nav-item .nav-link.active .people_nav > a {
+  color: #fff !important;
+  background-color: var(--hover-color) !important;
+}
+.people_nav_container .nav-item .nav-link .people_nav > a:hover {
+  background: var(--hover-color);
+  color: #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff !important;
+  background-color: var(--hover-color) !important;
+}
+
+.people_nav_container .nav-link {
+  padding: 0;
+}
+
+.partners {
+  margin-top: 46px;
+  margin-bottom: 212px;
+}
+
+.partners .accordion-item {
+  background-color: #fff;
+  border: none;
+  padding-bottom: 0px;
+  border-bottom: 1px solid var(--hover-color);
+  border-radius: none;
+  padding-top: 14px;
+  border-radius: 0px;
+}
+
+.partners .accordion-button:focus {
+  border-color: #fff;
+  box-shadow: none;
+}
+
+.partners .accordion-button {
+  padding: 0;
+}
+.partners .accordion-button:not(.collapsed) {
+  color: #0c63e4;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.partners figure {
+  display: flex;
+  align-items: center;
+}
+.partners figure > img {
+  margin-right: 21px;
+  width: 92px;
+}
+
+.partners figcaption > h3 {
+  font: 17px "Pigeon";
+  letter-spacing: 2px;
+  color: var(--hover-color);
+}
+
+.partners figcaption > p {
+  font: 15px "Pigeon";
+  color: #333132;
+}
+
+.partners .accordion-button::after {
+  background-image: none;
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  width: 0;
+  height: 0;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-top: 13px solid var(--hover-color);
+}
+.partners .accordion-body {
+  padding: 0;
+  padding-bottom: 15px;
+  font-size: 14px;
+  color: #333132;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 400px) {
+  .partners figure {
+    flex-direction: column;
+    width: 100%;
+  }
+  .partners figure > img {
+    margin-right: 0;
+  }
+  .partners figure figcaption {
+    text-align: center;
+    margin-top: 20px;
+  }
+}

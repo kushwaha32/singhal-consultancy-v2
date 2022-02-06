@@ -1,0 +1,46 @@
+.industry_sector {
+  margin-top: 100px !important;
+}
+
+.industry_sector_holder {
+  width: 100%;
+}
+
+.industry_sector .accordion-item:not(:first-of-type) {
+  border-top: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.industry_sector .accordion-button {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  color: #333;
+  font: 16px "Pigeon";
+  text-transform: capitalize;
+}
+
+.industry_sector .accordion-item {
+  margin-bottom: 5px;
+}
+
+.industry_sector .accordion-button:focus,
+.industry_sector .accordion-button:hover {
+  box-shadow: none;
+  background-color: var(--hover-color);
+  color: #fff;
+}
+.industry_sector .accordion-button::after {
+  display: none;
+}
+
+.industry_sector .para_indu {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: var(--para-font);
+  color: var(--font-color-two);
+}
+
+.img_indus {
+  border: 1px solid #ddd;
+  padding: 3px;
+  border-radius: 4px;
+}

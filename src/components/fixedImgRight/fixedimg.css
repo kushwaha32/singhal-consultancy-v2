@@ -1,0 +1,17 @@
+.fix-left-img {
+  position: fixed;
+  height: 100vh;
+  width: 232px;
+  top: 0;
+  right: 0;
+}
+.fix-left-img > img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .fix-left-img {
+    display: none;
+  }
+}

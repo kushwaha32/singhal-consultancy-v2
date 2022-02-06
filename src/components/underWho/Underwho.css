@@ -1,0 +1,25 @@
+.under_con {
+  display: flex;
+  width: 76%;
+}
+
+.under_con > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 28px;
+  margin-top: 5px;
+}
+.under_con h4 {
+  font: 20px "Pigeon";
+  color: #f94f02;
+  padding: 8px 0px 5px;
+  letter-spacing: 1px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.under_con p {
+  font: 13px "Raleway";
+  line-height: 1.7;
+  color: #505050;
+}

@@ -1,0 +1,18 @@
+.bread_crum {
+  border-bottom: none;
+  -webkit-box-shadow: 0 7px 6px -6px #ccc;
+  -moz-box-shadow: 0 7px 6px -6px #ccc;
+  box-shadow: 0 7px 6px -6px #ccc;
+  padding: 30px 0px 10px;
+  margin-bottom: 30px;
+}
+.bread_crum > span {
+  color: var(--hover-color);
+  font: 16px "Pigeon";
+  text-transform: uppercase;
+}
+.bread_crum > span > a {
+  color: #4f4f4f;
+  text-transform: uppercase;
+  font: 16px "Pigeon";
+}

@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+#root {
+  overflow-x: hidden;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+:root {
+  --hover-color: #bc955c;
+  --font-color: #fff;
+  --font-color-two: #4d4d4d;
+  --background-color: #002856;
+  --fera-font: "Playfair Display", serif;
+  --para-font: "Raleway", sans-serif;
+  --heading-font: "Playfair Display", serif;
+  --border-color: #dddddd0f;
+}
+
+.heading_comman {
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  color: var(--background-color);
+  text-align: center;
+}
+
+.know_more {
+  background: var(--hover-color);
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  color: #fff;
+  font: 18px "Pigeon";
+  transition: all 0.3s ease-in-out;
+}
+.know_more:hover {
+  background: #fff;
+  color: var(--hover-color);
+}
+
+.img_width {
+  width: 100%;
+  height: 208px;
+  object-fit: cover;
+}
+.about_heading {
+  font: 28px "Pigeon";
+  color: #f94f02;
+  padding: 10px 0px 25px;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+.people_nav_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 3px;
+}
+.location-icon {
+  color: red;
+  font-size: 1.5rem;
+}
+.loading_con {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+.loading_con > p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login_admin {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background-color);
+  position: relative;
+}
+.login_form_parent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 27%;
+}
+.login_form {
+  background-color: #fff;
+  box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.login_form > h4 {
+  text-align: center;
+}
+.admin_sub_btn {
+  width: 100%;
+}
+.ck-editor__editable_inline {
+  min-height: 250px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .login_form_parent {
+    width: 34%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .login_form_parent {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .login_form_parent {
+    width: 80%;
+  }
+  .people_nav_container {
+    grid-template-columns: 1fr;
+  }
+}

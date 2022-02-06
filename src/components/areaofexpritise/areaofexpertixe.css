@@ -1,0 +1,67 @@
+.practice_area {
+  margin-top: 140px !important;
+}
+
+.right_con {
+  background-color: var(--background-color);
+  padding-right: 0;
+  color: #fff;
+}
+.left_con {
+  padding-left: 0;
+  position: relative;
+}
+.blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00285669;
+}
+.caro_area img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.text_con_caro {
+  padding: 30px 25px;
+}
+.text_con_caro > h4 {
+  font-size: 21px;
+  margin: 0px 0 10px;
+  font-family: var(--heading-font);
+}
+.text_con_caro > div {
+  font-size: 13px;
+  line-height: 1.7;
+  height: 260px;
+  font-family: var(--para-font);
+  letter-spacing: 0.5px;
+}
+
+.carousel-control-prev {
+  left: 386px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .left_con {
+    display: none;
+  }
+  .carousel-control-prev {
+    left: 0px !important;
+  }
+  .practice_area_holder .carousel-indicators {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 500px) {
+}
+@media only screen and (max-width: 400px) {
+}
